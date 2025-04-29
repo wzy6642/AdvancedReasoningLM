@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 15:03:10
+ * @LastEditTime: 2025-04-29 15:05:48
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -23,4 +23,4 @@ A curated collection of research papers on complex reasoning with language model
 ## Foundation Models
 
 ## Metrics
- - pass@k: 
+ - pass@k: Given a problem, we sample k outputs from the model. The pass@k value for this question is 1 if at least one of the k samples passes verification; otherwise, it is 0.
