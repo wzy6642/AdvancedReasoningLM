@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 16:23:34
+ * @LastEditTime: 2025-04-29 17:12:16
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -12,6 +12,10 @@ A curated collection of research papers on complex reasoning with language model
  - **[Tina]:** Tina: Tiny Reasoning Models via LoRA. [Paper](http://arxiv.org/abs/2504.15777), [Code](https://github.com/shangshang-wang/Tina)<br>
     <span style="color:#FFC0CB;">**TLDR:**</span> LoRA excels at quickly learning the structural/format requirements of multi-step reasoning (e.g., step-by-step chains) while largely preserving the base model’s world knowledge—enabling “less compute, more performance”. <br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `LoRA` `Reinforcement Learning` `DeepSeek-R1-Distill-Qwen-1.5B` `Mathematical Reasoning` `Scientific Reasoning` `GRPO`
+
+ - **[SRPO]:** SRPO: A Cross-Domain Implementation of Large-Scale Reinforcement Learning on LLM. [Paper](http://arxiv.org/abs/2504.14286), [Code](https://huggingface.co/Kwaipilot/SRPO-Qwen-32B)<br>
+    <span style="color:#90EE90;">**TLDR:**</span> The approach includes a two-stage training paradigm, where the first stage focuses on mathematical data to develop reasoning skills, and the second integrates coding data to build proficiency in procedural thinking. Key innovations include the introduction of History Resampling (HR), which improves training efficiency by filtering out “easy” samples and maintaining meaningful gradients. <br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Qwen-2.5-32B-Base` `Mathematical Reasoning` `Code Generation` `Reinforcement Learning` `GRPO`
 
 ## Analysis
  - **[Open-RS]:** Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn't. [Paper](https://arxiv.org/pdf/2503.16219), [Code](https://github.com/knoveleng/open-rs)<br>
