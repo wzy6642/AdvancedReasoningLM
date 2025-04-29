@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 14:45:54
+ * @LastEditTime: 2025-04-29 15:03:10
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -10,7 +10,7 @@ A curated collection of research papers on complex reasoning with language model
 
 ## Methodology
  - **[Tina]:** Tina: Tiny Reasoning Models via LoRA. [Paper](http://arxiv.org/abs/2504.15777), [Code](https://github.com/shangshang-wang/Tina)<br>
-    <span style="color:#FFC0CB;">**TLDR:**</span> <br>
+    <span style="color:#FFC0CB;">**TLDR:**</span> LoRA excels at quickly learning the structural/format requirements of multi-step reasoning (e.g., step-by-step chains) while largely preserving the base model’s world knowledge—enabling “less compute, more performance”. <br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `LoRA` `Reinforcement Learning` `DeepSeek-R1-Distill-Qwen-1.5B` `Mathematical Reasoning` `Scientific Reasoning` `GRPO`
 
 ## Analysis
