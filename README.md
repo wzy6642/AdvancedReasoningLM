@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 16:21:15
+ * @LastEditTime: 2025-04-29 16:23:34
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -23,7 +23,7 @@ A curated collection of research papers on complex reasoning with language model
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Qwen2.5-7B` `Mathematical Reasoning` `GRPO` `Code Generation` `Visual Reasoning`
 
 ## Foundation Models
- - **[Qwen3]:** Qwen3: Think Deeper, Act Faster. [Paper](https://qwenlm.github.io/blog/qwen3/)<br>
+ - **[Qwen3]:** Qwen3: Think Deeper, Act Faster. [Blog](https://qwenlm.github.io/blog/qwen3/), [Code](https://github.com/QwenLM/Qwen3)<br>
     <span style="color:#FFC0CB;">**TLDR:**</span> To develop a hybrid model adept at both detailed reasoning and quick responses, the team executed a four-stage training pipeline: (1) they initiated training via a long chain-of-thought (CoT) cold-start phase, fine-tuning the model with diverse reasoning data across math, coding, and logic; (2) next, they conducted reasoning-based reinforcement learning (RL) to refine the model's exploration and problem-solving abilities; (3) subsequently, they fused rapid-response capabilities into the model by fine-tuning it with combined CoT and standard instruction-tuning data; and (4) finally, general RL was applied across a wide range of real-world tasks to enhance the model’s overall performance, ensuring reliability and mitigating undesirable behaviors.<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `Reinforcement Learning` `Qwen3` `Thinking Mode`
  
