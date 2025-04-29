@@ -1,15 +1,15 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 17:17:37
+ * @LastEditTime: 2025-04-29 17:51:53
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
 
 ## Benchmark
  - **[OlymMATH]:** Challenging the Boundaries of Reasoning: An Olympiad-Level Math Benchmark for Large Language Models. [Paper](http://arxiv.org/abs/2503.21380), [Code](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)<br>
-    <span style="color:#90EE90;">**TLDR:**</span> <br>
-    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` 
+    <span style="color:#90EE90;">**TLDR:**</span> OlymMATH is a rigorously curated, bilingual Olympiad-level math benchmark comprising 200 printed-source problems—100 “easy” AIME-level and 100 “hard” beyond-AIME—equally sampled across algebra, geometry, number theory, and combinatorics, all reformulated into pure text and restricted to real-number or interval answers to enable automated, rule-based verification.<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Mathematical Reasoning` `#Problems=200` `Numerical Answer` `Olympiad-Level` `Multi-lingual`
 
 
 ## Methodology
