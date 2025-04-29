@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 17:51:53
+ * @LastEditTime: 2025-04-29 20:07:43
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -30,6 +30,10 @@ A curated collection of research papers on complex reasoning with language model
  - **[Limit-of-RLVR]:** Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model? [Paper](http://arxiv.org/abs/2504.13837), [Code](https://limit-of-rlvr.github.io/)<br>
     <span style="color:#FFC0CB;">**TLDR:**</span> The study questions whether Reinforcement Learning with Verifiable Rewards (RLVR) enhances LLM reasoning beyond base models. It finds RLVR boosts initial performance but restricts exploration, limiting its ability to surpass base models at larger sampling sizes. Distillation from stronger models proves more effective in expanding reasoning boundaries. Thus, RLVR falls short in significantly advancing LLM reasoning capabilities compared to alternative training approaches.<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Qwen2.5-7B` `Mathematical Reasoning` `GRPO` `Code Generation` `Visual Reasoning`
+
+ - **[Reflection]:** Rethinking Reflection in Pre-Training [Paper](http://arxiv.org/abs/2504.04022), [Code](https://github.com/Essential-AI/reflection)<br>
+    <span style="color:#90EE90;">**TLDR:**</span> The ability of LLMs to reflect and self-correct emerges during pre-training, not only during reinforcement learning or fine-tuning.<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Mathematical Reasoning` `Code Generation` `Logical Reasoning`
 
 
 ## Foundation Models
