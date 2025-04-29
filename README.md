@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 20:07:43
+ * @LastEditTime: 2025-04-29 20:26:53
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -21,6 +21,10 @@ A curated collection of research papers on complex reasoning with language model
     <span style="color:#90EE90;">**TLDR:**</span> The approach includes a two-stage training paradigm, where the first stage focuses on mathematical data to develop reasoning skills, and the second integrates coding data to build proficiency in procedural thinking. Key innovations include the introduction of History Resampling (HR), which improves training efficiency by filtering out “easy” samples and maintaining meaningful gradients. <br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Qwen-2.5-32B-Base` `Mathematical Reasoning` `Code Generation` `Reinforcement Learning` `GRPO`
 
+ - **[DeepScaleR]:** DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL. [Blog](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2), [Code](https://github.com/agentica-project/rllm)<br>
+    <span style="color:#90EE90;">**TLDR:**</span> Start RL at the base model’s context window, then increase to 16 K tokens after 1,040 steps, and finally to 24 K tokens at 1,520 steps to stabilize training under longer contexts. By combining high-quality SFT distillation with RL scaling, we can truly unlock the reasoning potential of LLMs.<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `Deepseek-R1-Distilled-Qwen-1.5B` `Mathematical Reasoning` `Reinforcement Learning` `GRPO`
+    
 
 ## Analysis
  - **[Open-RS]:** Reinforcement Learning for Reasoning in Small LLMs: What Works and What Doesn't. [Paper](https://arxiv.org/pdf/2503.16219), [Code](https://github.com/knoveleng/open-rs)<br>
