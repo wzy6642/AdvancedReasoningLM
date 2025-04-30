@@ -52,3 +52,5 @@ A curated collection of research papers on complex reasoning with language model
   - **perplexity:** Given a model $m$, a problem $x$, and a response $\mathbf{Y}=(y_1,\ldots,y_T)$, the perplexity is defined as the exponentiated average negative log-likelihood of a sequence: <br>
 $\mathrm{PPL}\_m(\mathbf{Y}|x)=\exp\left(-\frac{1}{T}\sum_{t=1}^T\log P(y_t|x,y_1,\ldots,y_{t-1})\right)$ <br>
   which reflects the model’s ability to predict the given response $\mathbf{Y}$ conditioned on the prompt $x$. Lower perplexity indicates that the model has a higher likelihood of generating this response.
+  - **Incorrect to Correct Rate (ICR):** The rate at which the model successfully corrects an initially incorrect answer into a correct final answer.
+  - **Correct to Incorrect Rate (CIR):** The rate at which the model incorrectly alters an initially correct answer into an incorrect final answer.
