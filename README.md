@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-04-29 20:26:53
+ * @LastEditTime: 2025-05-01 09:32:28
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -24,6 +24,10 @@ A curated collection of research papers on complex reasoning with language model
  - **[DeepScaleR]:** DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL. [Blog](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2), [Code](https://github.com/agentica-project/rllm)<br>
     <span style="color:#90EE90;">**TLDR:**</span> Start RL at the base model’s context window, then increase to 16 K tokens after 1,040 steps, and finally to 24 K tokens at 1,520 steps to stabilize training under longer contexts. By combining high-quality SFT distillation with RL scaling, we can truly unlock the reasoning potential of LLMs.<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `Deepseek-R1-Distilled-Qwen-1.5B` `Mathematical Reasoning` `Reinforcement Learning` `GRPO`
+    
+ - **[RLVR]:** Crossing the Reward Bridge: Expanding RL with Verifiable Rewards Across Diverse Domains. [Paper](http://arxiv.org/abs/2503.23829), [Code](https://huggingface.co/collections/virtuoussy/rlvr-67ea349b086e3511f86d1c1f)<br>
+    <span style="color:#FFC0CB;">**TLDR:**</span> By utilizing expert-written reference answers, it improves the accuracy and reliability of evaluating model-generated responses across various domains. A novel soft reward function, based on generative model token probabilities, enhances assessment granularity beyond binary judgments. These innovations extend RLVR capabilities to complex, unstructured domains like medicine and economics, supported by a compact generative reward model (7B scale).<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Complex Reasoning` `Reinforcement Learning` `GRPO` `Qwen2.5-7B-Instruct` `Reward`
     
 
 ## Analysis
