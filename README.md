@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-05-06 10:58:37
+ * @LastEditTime: 2025-05-06 16:11:10
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -28,6 +28,10 @@ A curated collection of research papers on complex reasoning with language model
  - **[RLVR]:** Crossing the Reward Bridge: Expanding RL with Verifiable Rewards Across Diverse Domains. [Paper](http://arxiv.org/abs/2503.23829), [Code](https://huggingface.co/collections/virtuoussy/rlvr-67ea349b086e3511f86d1c1f)<br>
     <span style="color:#FFC0CB;">**TLDR:**</span> By utilizing expert-written reference answers, it improves the accuracy and reliability of evaluating model-generated responses across various domains. A novel soft reward function, based on generative model token probabilities, enhances assessment granularity beyond binary judgments. These innovations extend RLVR capabilities to complex, unstructured domains like medicine and economics, supported by a compact generative reward model (7B scale).<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Complex Reasoning` `Reinforcement Learning` `GRPO` `Qwen2.5-7B-Instruct` `Reward`
+    
+ - **[Heimdall]:** Heimdall: test-time scaling on the generative verification. [Paper](http://arxiv.org/abs/2504.10337)<br>
+    <span style="color:#90EE90;">**TLDR:**</span> Heimdall reframes solution verification as an RL-trained chain-of-thought task—enabling both a standalone verifier and a tight solver–verifier loop that matches state-of-the-art math contest performance—by combining forward checking (step-by-step validation) with backward checking (testing conclusions against known constraints).<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Complex Reasoning` `Reinforcement Learning` `DAPO` `Verifier` 
     
 
 ## Analysis
