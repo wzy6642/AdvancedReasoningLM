@@ -1,7 +1,7 @@
 <!--
  * @Author: Zhenyu Wu
  * @Date: 2025-04-29 08:41:02
- * @LastEditTime: 2025-05-01 09:32:28
+ * @LastEditTime: 2025-05-06 10:58:37
 -->
 # AdvancedReasoningLM
 A curated collection of research papers on complex reasoning with language models.
@@ -39,9 +39,13 @@ A curated collection of research papers on complex reasoning with language model
     <span style="color:#FFC0CB;">**TLDR:**</span> The study questions whether Reinforcement Learning with Verifiable Rewards (RLVR) enhances LLM reasoning beyond base models. It finds RLVR boosts initial performance but restricts exploration, limiting its ability to surpass base models at larger sampling sizes. Distillation from stronger models proves more effective in expanding reasoning boundaries. Thus, RLVR falls short in significantly advancing LLM reasoning capabilities compared to alternative training approaches.<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Qwen2.5-7B` `Mathematical Reasoning` `GRPO` `Code Generation` `Visual Reasoning`
 
- - **[Reflection]:** Rethinking Reflection in Pre-Training [Paper](http://arxiv.org/abs/2504.04022), [Code](https://github.com/Essential-AI/reflection)<br>
+ - **[Reflection]:** Rethinking Reflection in Pre-Training. [Paper](http://arxiv.org/abs/2504.04022), [Code](https://github.com/Essential-AI/reflection)<br>
     <span style="color:#90EE90;">**TLDR:**</span> The ability of LLMs to reflect and self-correct emerges during pre-training, not only during reinforcement learning or fine-tuning.<br>
     <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Mathematical Reasoning` `Code Generation` `Logical Reasoning`
+
+ - **[SimpleRL-Zoo]:** SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild. [Paper](http://arxiv.org/abs/2503.18892), [Code](https://github.com/hkust-nlp/simpleRL-reason)<br>
+    <span style="color:#90EE90;">**TLDR:**</span> Fine-tuning on chain-of-thought examples gives models a quick boost, but it actually holds them back later by cramping their exploratory instincts and stopping deeper reasoning from emerging. You’ll also see answers get needlessly long—sometimes just rambling—so length isn’t a reliable sign of insight. And if you force rigid formats (like boxing answers) it chokes off experimentation, lowers the ceiling, and leads to overthinking. Finally, you’ve got to match the training data’s difficulty to what the model can handle, or the whole zero-RL approach falls apart.<br>
+    <span style="color:#90EE90;">**Keywords:**</span> `2025` `arXiv` `Reinforcement Learning` `Mathematical Reasoning` `GRPO` `Qwen2.5 models`
 
 
 ## Foundation Models
